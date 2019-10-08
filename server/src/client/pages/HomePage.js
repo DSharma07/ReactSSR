@@ -6,9 +6,9 @@ const Home = () => {
             <div>I'm final home component</div>
             <button onClick={() => console.log('Hi !!!')}>Press me!</button>
         </div>
-    )
+    );
 };
 
 export default {
-    Home
-};
+    component: Home
+}; 
